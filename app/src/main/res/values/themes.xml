@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blueSplashBackground</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/gymlogo</item>
+         <item name="postSplashScreenTheme">@style/Theme.FusionFit</item>
+    </style>
+
+
+
+    <style name="Theme.FusionFit" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

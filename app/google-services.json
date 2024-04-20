@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "740174718226",
+    "project_id": "login-and-signup-with-fi-7b91e",
+    "storage_bucket": "login-and-signup-with-fi-7b91e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740174718226:android:489eb511465a0765053fcb",
+        "android_client_info": {
+          "package_name": "com.example.fusionfit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMbW8hpkFguRfAM4M68ZfwPIrM5bbyBL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740174718226:android:4f902ba53ccbb9a6053fcb",
+        "android_client_info": {
+          "package_name": "com.example.loginandsignupwithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMbW8hpkFguRfAM4M68ZfwPIrM5bbyBL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740174718226:android:836b11fa6e79a951053fcb",
+        "android_client_info": {
+          "package_name": "com.example.workoutpage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMbW8hpkFguRfAM4M68ZfwPIrM5bbyBL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
