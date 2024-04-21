@@ -84,7 +84,7 @@ fun Home(modifier: Modifier = Modifier,navController: NavController, quotes: Lis
 
 
 
-    LazyColumn(modifier = modifier.fillMaxSize().padding(bottom = 100.dp)) {
+    LazyColumn(modifier = modifier.fillMaxSize().padding(bottom = 75.dp)) {
         item {
             Column(
                 modifier = Modifier

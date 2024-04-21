@@ -30,7 +30,7 @@ import androidx.navigation.NavController
 
 @Composable
 fun Workout(modifier: Modifier = Modifier,navController: NavController,images: List<Int>) {
-    LazyColumn(modifier = modifier.fillMaxSize().padding(bottom = 100.dp).padding(top = 80.dp)) {
+    LazyColumn(modifier = modifier.fillMaxSize().padding(bottom = 70.dp).padding(top = 60.dp)) {
         items(images) { image ->
             // Determine the destination screen based on the image ID
             val destination = when (image) {
@@ -56,6 +56,7 @@ fun ImageItemForWorkout(image: Int, navController: NavController, destination: S
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
+            .padding(top = 10.dp)
             .clickable {
                 // Navigate to the specified destination when the card is clicked
                 navController.navigate(destination)
