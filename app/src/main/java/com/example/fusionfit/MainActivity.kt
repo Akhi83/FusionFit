@@ -332,7 +332,9 @@ fun navDrawerTopAppBarBottomNav(){
                 composable(Screens.WeightLossNonVeg.screens){ WeightLossNonVeg()}
                 composable(Screens.WeightLossVeg.screens){ WeightLossVeg()}
                 composable(Screens.MuscleBuildingExercises.screens){ MuscleBuildingExercises()}
-                composable(Screens.Customized.screens){ Customized()}
+                composable(Screens.Customized.screens){ Customized(navController=navigationController)}
+                composable(Screens.GainMuscleCustomized.screens){ GainMuscleCustomized() }
+                composable(Screens.LoseMuscleCustomized.screens){ LoseMuscleCustomized() }
             }
         }
     }

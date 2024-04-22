@@ -14,5 +14,7 @@ sealed class Screens (val  screens: String){
     data object WeightLossNonVeg:Screens("WeightLossNonVeg")
     data object MuscleBuildingExercises:Screens("MuscleBuildingExercises")
     data object Customized:Screens("Customized")
+    data object LoseMuscleCustomized:Screens("LoseMuscleCustomized")
+    data object GainMuscleCustomized:Screens("GainMuscleCustomized")
 
 }

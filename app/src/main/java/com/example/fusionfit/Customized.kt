@@ -21,10 +21,11 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.example.fusionfit.ui.theme.FusionFitTheme
 
 @Composable
-fun Customized() {
+fun Customized(navController: NavController) {
     val muscleImageResourceId = R.drawable.weight
     val weightImageResourceId = R.drawable.muscle
     Column(
@@ -37,7 +38,7 @@ fun Customized() {
         Card(
             modifier = Modifier
                 .padding(horizontal = 16.dp, vertical = 8.dp)
-                .clickable {  }
+                .clickable {navController.navigate(Screens.GainMuscleCustomized.screens)}
 
         ) {
             Column(
@@ -59,7 +60,7 @@ fun Customized() {
         Card(
             modifier = Modifier
                 .padding(horizontal = 16.dp, vertical = 8.dp)
-                .clickable {  }
+                .clickable {navController.navigate(Screens.LoseMuscleCustomized.screens)}
         ) {
             Column(
                 modifier = Modifier.padding(16.dp),
@@ -79,10 +80,10 @@ fun Customized() {
     }
 }
 
-@Preview
-@Composable
-fun CustomizedPrev(){
-    FusionFitTheme {
-        Customized()
-    }
-}
+//@Preview
+//@Composable
+//fun CustomizedPrev(){
+//    FusionFitTheme {
+//        Customized()
+//    }
+//}
