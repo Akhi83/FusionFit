@@ -293,7 +293,7 @@ fun navDrawerTopAppBarBottomNav(){
 
                     IconButton(
                         onClick = {
-                            selected.value=Icons.Default.Person
+                            selected.value=Icons.Default.ExitToApp
                             navigationController.navigate(Screens.Customized.screens){
                                 popUpTo(0)
                             }
@@ -301,7 +301,7 @@ fun navDrawerTopAppBarBottomNav(){
                         Icon(
                             painterResource(id = R.drawable.customicon),
                             contentDescription ="profile",modifier=Modifier.size(26.dp), 
-                            tint =  if (selected.value == Icons.Default.Person) Color.White else  Color.DarkGray )
+                            tint =  if (selected.value == Icons.Default.ExitToApp) Color.White else  Color.DarkGray )
                     }
 
 
