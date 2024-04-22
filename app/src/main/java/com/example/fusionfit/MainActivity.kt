@@ -143,6 +143,15 @@ fun navDrawerTopAppBarBottomNav(){
     )
 
 
+    val imageIdsForDiet = listOf(
+
+        R.drawable.card1,
+        R.drawable.card2,
+        R.drawable.card5,
+        R.drawable.card7
+    )
+
+
 
     ModalNavigationDrawer(
         drawerState = drawerState,
@@ -313,7 +322,7 @@ fun navDrawerTopAppBarBottomNav(){
                 composable(Screens.Home.screens){ Home(navController = navigationController,quotes = listOf("The only bad workout is the one that didn't happen", "Success isn't given. It's earned. On the track, on the field, in the gym. With blood, sweat, and the occasional tear", "The pain you feel today will be the strength you feel tomorrow", "The only way to define your limits is by going beyond them"),images=imageIds)}
                 composable(Screens.Profile.screens){ Profile() }
                 composable(Screens.Workout.screens){ Workout(navController = navigationController, images = imageIdsForWorkout) }
-                composable(Screens.Diet.screens){ Diet() }
+                composable(Screens.Diet.screens){ Diet(navController = navigationController, images = imageIdsForDiet) }
                 composable(Screens.Settings.screens){ Settings() }
                 composable(Screens.MuscleBuildingExercises.screens){ MuscleBuildingExercises()}
                 composable(Screens.Cardio.screens){ Cardio()}
