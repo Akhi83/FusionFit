@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated WeightLossNonVeg.kt">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegbffatloss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegdinnfatloss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/veglnchfatloss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegpostwfatloss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegprewfatloss.png" afterDir="false" />
+    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated WeightLossVeg.kt and added related imgs">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegbfmuscle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegdinnmuscle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/veglnchmuscle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegpostwmuscle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegprewmuscle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713884469010</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Integrated WeightLossVeg.kt and added related imgs">
+      <option name="closed" value="true" />
+      <created>1713891275218</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713891275218</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +267,7 @@
     <MESSAGE value="Integrated Cardio.kt / Stretching Screen" />
     <MESSAGE value="Integrated MuscleGainNonVeg.kt also added related imgs to drawable" />
     <MESSAGE value="Integrated WeightLossNonVeg.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrated WeightLossNonVeg.kt" />
+    <MESSAGE value="Integrated WeightLossVeg.kt and added related imgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated WeightLossVeg.kt and added related imgs" />
   </component>
 </project>

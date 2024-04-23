@@ -114,8 +114,8 @@ fun Dietlist(){
                 Text(item.name,modifier= Modifier
                     .align(Alignment.CenterVertically)
                     .padding(start = 8.dp), fontSize = 18.sp)
-
             }
+            HorizontalDivider()
         }
     }
 }
