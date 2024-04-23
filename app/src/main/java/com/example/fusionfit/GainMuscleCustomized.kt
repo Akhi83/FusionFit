@@ -29,9 +29,6 @@ fun GainMuscleCustomized(modifier: Modifier = Modifier,navController: NavControl
         items(images) { image ->
             // Determine the destination screen based on the image ID
             val destination = when (image) {
-
-                R.drawable.card3 -> Screens.Cardio.screens
-                R.drawable.card4 -> Screens.WeightLossExercises.screens
                 R.drawable.card6 -> Screens.MuscleBuildingExercises.screens
                 R.drawable.card1 -> Screens.MuscleGainVeg.screens
                 R.drawable.card2 -> Screens.MuscleGainVeg.screens

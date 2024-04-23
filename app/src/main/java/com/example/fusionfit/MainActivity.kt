@@ -153,9 +153,6 @@ fun navDrawerTopAppBarBottomNav(){
 
 
     val imageIdsForGainMuscleCustomized = listOf(
-
-        R.drawable.card3,
-        R.drawable.card4,
         R.drawable.card6,
         R.drawable.card1,
         R.drawable.card2
