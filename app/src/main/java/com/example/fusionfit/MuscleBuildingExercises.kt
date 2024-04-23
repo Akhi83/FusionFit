@@ -63,7 +63,7 @@ fun MuscleBuildingExercises (){
                             )
             }
 
-            Text(text = "30 mins-13 workouts", modifier = Modifier.padding(5.dp))
+            Text(text = "30 mins-13 workouts", modifier = Modifier.padding(5.dp),fontSize = 17.sp,fontWeight = FontWeight.Bold)
             HorizontalDivider()
             WorkoutList()
         }
@@ -424,15 +424,15 @@ fun LoadImage(storage:Int,size: Dp?){
 }
 val workoutItems = listOf(
     WorkoutItem("Jumping jacks",R.drawable.jumpingjacks ,"20s"),
-//    WorkoutItem("High Knees", R.drawable.highknees,"20s"),
-//    WorkoutItem("Knee pushups",R.drawable.kneepushups ,"10X"),
-//    WorkoutItem("Tricep dips",R.drawable.tricepdips ,"10X"),
-//    WorkoutItem("Australian Pullups",R.drawable.australianpullups ,"10X"),
-//    WorkoutItem("Squats",R.drawable.squats ,"10X"),
-//    WorkoutItem("Lunges", R.drawable.lunges,"10X"),
-//    WorkoutItem("Crunches", R.drawable.crunches,"15X"),
-//    WorkoutItem("Mountain climbers", R.drawable.mountainclimbers,"15X"),
-//    WorkoutItem("Leg raises", R.drawable.legraises,"10X"),
+    WorkoutItem("High Knees", R.drawable.highknees,"20s"),
+    WorkoutItem("Knee pushups",R.drawable.kneepushups ,"10X"),
+    WorkoutItem("Tricep dips",R.drawable.tricepdips ,"10X"),
+    WorkoutItem("Australian Pullups",R.drawable.australianpullups ,"10X"),
+    WorkoutItem("Squats",R.drawable.squats ,"10X"),
+    WorkoutItem("Lunges", R.drawable.lunges,"10X"),
+    WorkoutItem("Crunches", R.drawable.crunches,"15X"),
+    WorkoutItem("Mountain climbers", R.drawable.mountainclimbers,"15X"),
+    WorkoutItem("Leg raises", R.drawable.legraises,"10X"),
     WorkoutItem("Cobra stretch",R.drawable.cobrastretch ,"10s"),
     WorkoutItem("Child pose", R.drawable.childpose,"10s"),
     WorkoutItem("Hamstring stretch",R.drawable.hamstringstretch,"10s"),
