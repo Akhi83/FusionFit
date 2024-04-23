@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated WeightLossExercises.kt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fusionfit/MuscleBuildingExercises.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fusionfit/MuscleBuildingExercises.kt" afterDir="false" />
-    </list>
+    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Finalized&#10;MuscleBuildingExercises.kt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +18,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/akhileshshinde/.android/avd/Pixel_4_API_34.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[aca6ae88]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -192,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713874172854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finalized&#10;MuscleBuildingExercises.kt">
+      <option name="closed" value="true" />
+      <created>1713874759916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713874759916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +215,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Integrated MuscleBuildingExercises.kt" />
     <MESSAGE value="Integrated WeightLossExercises.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrated WeightLossExercises.kt" />
+    <MESSAGE value="Finalized&#10;MuscleBuildingExercises.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalized&#10;MuscleBuildingExercises.kt" />
   </component>
 </project>
