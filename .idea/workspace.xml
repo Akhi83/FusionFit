@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Minor changes to WeightLossExercises.kt and MuscleBuildingExercises.kt" />
+    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated Cardio.kt / Stretching Screen">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/breakfastmusclegainnonveg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lnchmusclegainnonveg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/postwmusclegainnonveg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713875493963</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Integrated Cardio.kt / Stretching Screen">
+      <option name="closed" value="true" />
+      <created>1713876631730</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713876631730</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +239,7 @@
     <MESSAGE value="Integrated WeightLossExercises.kt" />
     <MESSAGE value="Finalized&#10;MuscleBuildingExercises.kt" />
     <MESSAGE value="Minor changes to WeightLossExercises.kt and MuscleBuildingExercises.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes to WeightLossExercises.kt and MuscleBuildingExercises.kt" />
+    <MESSAGE value="Integrated Cardio.kt / Stretching Screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated Cardio.kt / Stretching Screen" />
   </component>
 </project>
