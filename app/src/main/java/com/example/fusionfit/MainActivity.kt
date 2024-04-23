@@ -152,6 +152,15 @@ fun navDrawerTopAppBarBottomNav(){
     )
 
 
+    val imageIdsForGainMuscleCustomized = listOf(
+
+        R.drawable.card3,
+        R.drawable.card4,
+        R.drawable.card6,
+        R.drawable.card1,
+        R.drawable.card2
+    )
+
 
     ModalNavigationDrawer(
         drawerState = drawerState,
@@ -333,7 +342,7 @@ fun navDrawerTopAppBarBottomNav(){
                 composable(Screens.WeightLossVeg.screens){ WeightLossVeg()}
                 composable(Screens.MuscleBuildingExercises.screens){ MuscleBuildingExercises()}
                 composable(Screens.Customized.screens){ Customized(navController=navigationController)}
-                composable(Screens.GainMuscleCustomized.screens){ GainMuscleCustomized() }
+                composable(Screens.GainMuscleCustomized.screens){ GainMuscleCustomized(navController = navigationController, images = imageIdsForGainMuscleCustomized) }
                 composable(Screens.LoseMuscleCustomized.screens){ LoseMuscleCustomized() }
             }
         }
