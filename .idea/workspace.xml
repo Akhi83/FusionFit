@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated Cardio.kt / Stretching Screen">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/breakfastmusclegainnonveg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lnchmusclegainnonveg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/postwmusclegainnonveg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated MuscleGainNonVeg.kt also added related imgs to drawable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713876631730</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Integrated MuscleGainNonVeg.kt also added related imgs to drawable">
+      <option name="closed" value="true" />
+      <created>1713883586044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713883586044</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +244,7 @@
     <MESSAGE value="Finalized&#10;MuscleBuildingExercises.kt" />
     <MESSAGE value="Minor changes to WeightLossExercises.kt and MuscleBuildingExercises.kt" />
     <MESSAGE value="Integrated Cardio.kt / Stretching Screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrated Cardio.kt / Stretching Screen" />
+    <MESSAGE value="Integrated MuscleGainNonVeg.kt also added related imgs to drawable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated MuscleGainNonVeg.kt also added related imgs to drawable" />
   </component>
 </project>
