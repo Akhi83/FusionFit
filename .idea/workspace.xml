@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated MuscleGainNonVeg.kt also added related imgs to drawable">
+    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Integrated WeightLossNonVeg.kt">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegbffatloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegdinnfatloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/veglnchfatloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegpostwfatloss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/vegprewfatloss.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713883586044</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Integrated WeightLossNonVeg.kt">
+      <option name="closed" value="true" />
+      <created>1713884469010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713884469010</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +258,7 @@
     <MESSAGE value="Minor changes to WeightLossExercises.kt and MuscleBuildingExercises.kt" />
     <MESSAGE value="Integrated Cardio.kt / Stretching Screen" />
     <MESSAGE value="Integrated MuscleGainNonVeg.kt also added related imgs to drawable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrated MuscleGainNonVeg.kt also added related imgs to drawable" />
+    <MESSAGE value="Integrated WeightLossNonVeg.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated WeightLossNonVeg.kt" />
   </component>
 </project>
