@@ -23,6 +23,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ExitToApp
+import androidx.compose.material.icons.filled.Groups
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.MoreVert
@@ -209,15 +210,15 @@ fun navDrawerTopAppBarBottomNav(signUpViewModel: SignUpViewModel){
                     })
 
                 NavigationDrawerItem(
-                    label = { Text(text = "Settings", color = headerColor) },
+                    label = { Text(text = "About Us", color = headerColor) },
                     selected = false,
-                    icon = { Icon(imageVector = Icons.Default.Settings, contentDescription = "setting", tint = headerColor) },
+                    icon = { Icon(imageVector = Icons.Default.Groups, contentDescription = "AboutUs", tint = headerColor) },
                     onClick = {
                         coroutineScope.launch {
                             drawerState.close()
                         }
-                        selected.value=Icons.Default.Settings
-                        navigationController.navigate(Screens.Settings .screens){
+                        selected.value=Icons.Default.Groups
+                        navigationController.navigate(Screens.AboutUs .screens){
                             popUpTo(0)
                         }
                     })
@@ -339,7 +340,7 @@ fun navDrawerTopAppBarBottomNav(signUpViewModel: SignUpViewModel){
                 composable(Screens.Profile.screens){ Profile() }
                 composable(Screens.Workout.screens){ Workout(navController = navigationController, images = imageIdsForWorkout) }
                 composable(Screens.Diet.screens){ Diet(navController = navigationController, images = imageIdsForDiet) }
-                composable(Screens.Settings.screens){ Settings() }
+                composable(Screens.AboutUs.screens){ AboutUs() }
                 composable(Screens.MuscleBuildingExercises.screens){ MuscleBuildingExercises()}
                 composable(Screens.Cardio.screens){ Cardio()}
                 composable(Screens.MuscleGainNonVeg.screens){ MuscleGainNonVeg()}

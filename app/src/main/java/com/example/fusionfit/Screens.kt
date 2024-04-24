@@ -3,7 +3,7 @@ package com.example.fusionfit
 sealed class Screens (val  screens: String){
     data object Home:Screens("home")
     data object Profile:Screens("profile")
-    data object Settings:Screens("settings")
+    data object AboutUs:Screens("AboutUs")
     data object Diet:Screens("Diet")
     data object Workout:Screens("Workout")
     data object MuscleGainVeg:Screens("MuscleGainVeg")
