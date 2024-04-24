@@ -70,6 +70,7 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.fusionfit.data.SignUpViewModel
 import com.example.fusionfit.ui.theme.FusionFitTheme
 import com.example.fusionfit.ui.theme.appbgcolor
 import com.example.fusionfit.ui.theme.headerColor
@@ -88,7 +89,9 @@ class MainActivity : ComponentActivity() {
 //                    contentAlignment = Alignment.Center
                     color = Color.White
                 ) {
-                    navDrawerTopAppBarBottomNav()
+                    MainApp()
+
+//                    navDrawerTopAppBarBottomNav()
 //                    learnBottomNavbar()
 //                    LearnNavigationDrawer()
 //                    learnTopAppBar()
@@ -117,7 +120,7 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun navDrawerTopAppBarBottomNav(){
+fun navDrawerTopAppBarBottomNav(signUpViewModel: SignUpViewModel){
     val navigationController = rememberNavController()
     val context = LocalContext.current.applicationContext
     val selected = remember {
@@ -227,6 +230,7 @@ fun navDrawerTopAppBarBottomNav(){
                         coroutineScope.launch {
                             drawerState.close()
                         }
+                        signUpViewModel.logout()
                         Toast.makeText(context,"Logged Out",Toast.LENGTH_SHORT).show()
                     })
             }
@@ -248,18 +252,18 @@ fun navDrawerTopAppBarBottomNav(){
                         titleContentColor = Color.White,
                         navigationIconContentColor = Color.White
                     ), actions = {
-                        IconButton(onClick = { Toast.makeText(context,"Profile",Toast.LENGTH_SHORT).show()})
-                        {
-                            Icon(imageVector = Icons.Filled.Person, contentDescription = "Profile", tint = Color.White)
-                        }
-                        IconButton(onClick = { Toast.makeText(context,"Search",Toast.LENGTH_SHORT).show()})
-                        {
-                            Icon(imageVector = Icons.Filled.Search, contentDescription = "Search", tint = Color.White)
-                        }
-                        IconButton(onClick = { Toast.makeText(context,"Menu",Toast.LENGTH_SHORT).show()})
-                        {
-                            Icon(imageVector = Icons.Filled.MoreVert, contentDescription = "Menu", tint = Color.White)
-                        }
+//                        IconButton(onClick = { Toast.makeText(context,"Profile",Toast.LENGTH_SHORT).show()})
+//                        {
+//                            Icon(imageVector = Icons.Filled.Person, contentDescription = "Profile", tint = Color.White)
+//                        }
+//                        IconButton(onClick = { Toast.makeText(context,"Search",Toast.LENGTH_SHORT).show()})
+//                        {
+//                            Icon(imageVector = Icons.Filled.Search, contentDescription = "Search", tint = Color.White)
+//                        }
+//                        IconButton(onClick = { Toast.makeText(context,"Menu",Toast.LENGTH_SHORT).show()})
+//                        {
+//                            Icon(imageVector = Icons.Filled.MoreVert, contentDescription = "Menu", tint = Color.White)
+//                        }
                     })
             },
             bottomBar = {
@@ -331,7 +335,7 @@ fun navDrawerTopAppBarBottomNav(){
         ) {
             NavHost(navController = navigationController,
                 startDestination = Screens.Home.screens  ){
-                composable(Screens.Home.screens){ Home(navController = navigationController,quotes = listOf("The only bad workout is the one that didn't happen", "Success isn't given. It's earned. On the track, on the field, in the gym. With blood, sweat, and the occasional tear", "The pain you feel today will be the strength you feel tomorrow", "The only way to define your limits is by going beyond them"),images=imageIds)}
+                composable(Screens.Home.screens){ Home(navController = navigationController,quotes = listOf("The only bad workout is the one that didn't happen", "Success isn't given. It's earned. On the track, on the field, in the gym. With blood, sweat, and the occasional tear", "The pain you feel today will be the strength you feel tomorrow", "The only way to define your limits is by going beyond them"),images=imageIds, signUpViewModel = SignUpViewModel())}
                 composable(Screens.Profile.screens){ Profile() }
                 composable(Screens.Workout.screens){ Workout(navController = navigationController, images = imageIdsForWorkout) }
                 composable(Screens.Diet.screens){ Diet(navController = navigationController, images = imageIdsForDiet) }
@@ -357,13 +361,13 @@ fun navDrawerTopAppBarBottomNav(){
 
 
 
-@Composable
-@Preview
-fun ShowPreviewMainApp(){
-    FusionFitTheme {
-        navDrawerTopAppBarBottomNav()
-    }
-}
+//@Composable
+//@Preview
+//fun ShowPreviewMainApp(){
+//    FusionFitTheme {
+//        navDrawerTopAppBarBottomNav()
+//    }
+//}
 
 
 

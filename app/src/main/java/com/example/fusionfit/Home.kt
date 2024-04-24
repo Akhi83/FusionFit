@@ -37,6 +37,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import androidx.compose.ui.layout.ContentScale
 import androidx.navigation.NavController
+import com.example.fusionfit.data.SignUpViewModel
 
 
 @Composable
@@ -66,7 +67,7 @@ fun PageIndicator(pageCount: Int, currentPage: Int) {
 
 @OptIn(ExperimentalPagerApi::class)
 @Composable
-fun Home(modifier: Modifier = Modifier,navController: NavController, quotes: List<String>,images: List<Int>) {
+fun Home(modifier: Modifier = Modifier,navController: NavController, quotes: List<String>,images: List<Int>,signUpViewModel: SignUpViewModel) {
     val pagerState = rememberPagerState(pageCount = quotes.size)
     val scope = rememberCoroutineScope()
 
