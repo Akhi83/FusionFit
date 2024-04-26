@@ -91,12 +91,12 @@ class SignUpViewModel : ViewModel() {
 
 
                  if (it.isSuccessful){
-//                     signUpInProgress.value =false
+                     signUpInProgress.value =false
                      LoginRouter.navigateTo(Screen.Sample)
                  }
              }
              .addOnFailureListener {
-//                 signUpInProgress.value =false
+                 signUpInProgress.value =false
 
              }
     }

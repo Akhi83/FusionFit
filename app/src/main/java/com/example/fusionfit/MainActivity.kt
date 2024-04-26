@@ -132,7 +132,7 @@ fun navDrawerTopAppBarBottomNav(signUpViewModel: SignUpViewModel){
     val imageIds = listOf(
         R.drawable.card1,
         R.drawable.card2,
-        R.drawable.card3,
+        R.drawable.stretching_card,
         R.drawable.card4,
         R.drawable.card5,
         R.drawable.card7,
@@ -141,7 +141,7 @@ fun navDrawerTopAppBarBottomNav(signUpViewModel: SignUpViewModel){
 
     val imageIdsForWorkout = listOf(
 
-        R.drawable.card3,
+        R.drawable.stretching_card,
         R.drawable.card4,
         R.drawable.card6
     )

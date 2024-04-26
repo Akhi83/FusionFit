@@ -36,7 +36,7 @@ fun Workout(modifier: Modifier = Modifier,navController: NavController,images: L
             // Determine the destination screen based on the image ID
             val destination = when (image) {
 
-                R.drawable.card3 -> Screens.Cardio.screens
+                R.drawable.stretching_card -> Screens.Cardio.screens
                 R.drawable.card4 -> Screens.WeightLossExercises.screens
                 R.drawable.card6 -> Screens.MuscleBuildingExercises.screens
                 else -> "YourDefaultScreen" // Default destination if image ID doesn't match any known screen

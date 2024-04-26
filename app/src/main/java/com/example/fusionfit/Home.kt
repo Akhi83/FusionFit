@@ -36,6 +36,10 @@ import com.google.accompanist.pager.rememberPagerState
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.fusionfit.data.SignUpViewModel
 
@@ -104,13 +108,15 @@ fun Home(modifier: Modifier = Modifier,navController: NavController, quotes: Lis
                 PageIndicator(pageCount = quotes.size, currentPage = pagerState.currentPage)
             }
 
+            Text(text = "Featured", fontSize = 30.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold, textAlign = TextAlign.Start, modifier = Modifier.padding(start = 20.dp, top = 20.dp, bottom = 20.dp))
+
         }
         items(images) { image ->
             // Determine the destination screen based on the image ID
             val destination = when (image) {
                 R.drawable.card1 -> Screens.MuscleGainVeg.screens
                 R.drawable.card2 -> Screens.MuscleGainNonVeg.screens
-                R.drawable.card3 -> Screens.Cardio.screens
+                R.drawable.stretching_card -> Screens.Cardio.screens
                 R.drawable.card4 -> Screens.WeightLossExercises.screens
                 R.drawable.card5 -> Screens.WeightLossNonVeg.screens
                 R.drawable.card7 -> Screens.WeightLossVeg.screens
@@ -192,7 +198,7 @@ fun ImageItem(image: Int, navController: NavController, destination: String) {
 //    val imageIds = listOf(
 //        R.drawable.card1,
 //        R.drawable.card2,
-//        R.drawable.card3,
+//        R.drawable.stretching_card,
 //        R.drawable.card4,
 //        R.drawable.card5,
 //        R.drawable.card6

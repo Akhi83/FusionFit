@@ -52,7 +52,7 @@ fun Cardio (){
                     .height(300.dp)
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.card3),
+                    painter = painterResource(id = R.drawable.stretching_card),
                     contentDescription = null,
                     modifier = Modifier.fillMaxSize()
                 )

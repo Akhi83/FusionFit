@@ -68,7 +68,7 @@ class LoginViewModel: ViewModel(){
     }
     private  fun checkUserInFirebase(email:String, password:String){
 
-       // logInProgress.value =true
+        logInProgress.value =true
 
         FirebaseAuth.getInstance()
             .signInWithEmailAndPassword(email,password)
@@ -76,12 +76,12 @@ class LoginViewModel: ViewModel(){
 
 
                 if (it.isSuccessful){
-                 //   logInProgress.value =false
+                    logInProgress.value =false
                     LoginRouter.navigateTo(Screen.Sample)
                 }
             }
             .addOnFailureListener {
-              //  logInProgress.value =false
+                logInProgress.value =false
 
             }
     }
