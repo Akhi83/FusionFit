@@ -44,7 +44,7 @@ import kotlin.math.ceil
 
 @Composable
 fun Cardio (){
-    Box (modifier = Modifier.padding(top = 30.dp)){
+    Box (modifier = Modifier.padding(top = 20.dp)){
         Column {
             Box(
                 modifier = Modifier
