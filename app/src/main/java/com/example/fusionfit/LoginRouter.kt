@@ -11,7 +11,7 @@ sealed class Screen(){
 
 }
 object LoginRouter{
-    val currentScreen : MutableState<Screen> = mutableStateOf(Screen.SignUpScreen)
+    val currentScreen : MutableState<Screen> = mutableStateOf(Screen.LoginScreen)
     fun navigateTo(destination : Screen){
         currentScreen.value = destination
     }
