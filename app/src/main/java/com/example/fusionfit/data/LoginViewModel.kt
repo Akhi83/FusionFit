@@ -1,5 +1,7 @@
 package com.example.fusionfit.data
 
+import android.content.Context
+import android.widget.Toast
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import com.example.fusionfit.LoginRouter
@@ -7,8 +9,9 @@ import com.example.fusionfit.Screen
 import com.example.fusionfit.data.rules.Validator
 import com.google.firebase.auth.FirebaseAuth
 
-class LoginViewModel: ViewModel(){
+class LoginViewModel(context: Context): ViewModel(){
 
+    private val applicationContext = context.applicationContext
 
     var loginUIState = mutableStateOf(LoginUIState())
 
@@ -78,6 +81,9 @@ class LoginViewModel: ViewModel(){
                 if (it.isSuccessful){
                     logInProgress.value =false
                     LoginRouter.navigateTo(Screen.Sample)
+                } else {
+                    showToast("Invalid login credentials")
+                    logInProgress.value =false
                 }
             }
             .addOnFailureListener {
@@ -85,6 +91,12 @@ class LoginViewModel: ViewModel(){
 
             }
     }
+
+    private fun showToast(message: String) {
+        // Show toast message using the application context
+        Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
+    }
+
 
 
 }

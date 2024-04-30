@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Uncommented the code of login and signup buffering and replaced the card of stretching" />
+    <list default="true" id="847f6b64-e274-46d7-9b82-d94c21f3d823" name="Changes" comment="Adjusted the padding of stretching card" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714159833600</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adjusted the padding of stretching card">
+      <option name="closed" value="true" />
+      <created>1714160736463</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714160736463</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +303,7 @@
     <MESSAGE value="Integrated Login/SignUp Functionality" />
     <MESSAGE value="Integrated AboutUs.kt" />
     <MESSAGE value="Uncommented the code of login and signup buffering and replaced the card of stretching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uncommented the code of login and signup buffering and replaced the card of stretching" />
+    <MESSAGE value="Adjusted the padding of stretching card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted the padding of stretching card" />
   </component>
 </project>

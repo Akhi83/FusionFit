@@ -1,5 +1,6 @@
 package com.example.fusionfit
 
+import android.content.Context
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -13,17 +14,36 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.fusionfit.data.LoginUIEvent
 import com.example.fusionfit.data.LoginViewModel
-import com.example.fusionfit.data.SignUpViewModel
-import com.example.fusionfit.data.SignupUIEvent
+
+
+
+
+
+class LoginViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if (modelClass.isAssignableFrom(LoginViewModel::class.java)) {
+            return LoginViewModel(context) as T
+        }
+        throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}
+
+
+
 
 @Composable
-fun LoginScreen(loginViewModel: LoginViewModel= viewModel()){
+fun LoginScreen(){
+    val context = LocalContext.current // Use LocalContext to get the current context
+    val loginViewModel: LoginViewModel = viewModel(factory = LoginViewModelFactory(context))
     Box(modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center) {
         Surface(
